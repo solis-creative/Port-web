@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "postinstall": "npm rebuild node-sass",
     "start": "node index.js",
     "server": "node index.js",
     "client": "npm run start --prefix client",
