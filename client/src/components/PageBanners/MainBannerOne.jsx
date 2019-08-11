@@ -1,3 +1,8 @@
+import '../../../node_modules/bootstrap/scss/bootstrap.scss';
+import '../../assets/css/font-awesome.min.css';
+import '../../assets/css/animate.css';
+import '../../assets/css/style.scss';
+import '../../assets/css/responsive.scss';
 import React from 'react';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
  

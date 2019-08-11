@@ -50,7 +50,8 @@ Default CSS
 */
 $family: unquote("Poppins");
 $font_family: 'Poppins', sans-serif;
-$template_color: #ff2c57;
+// $template_color: #ff2c57;
+$template_color: #6cc2bc;
 @import url('https://fonts.googleapis.com/css?family=#{$family}:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
 
 body {
