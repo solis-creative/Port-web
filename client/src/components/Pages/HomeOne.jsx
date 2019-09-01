@@ -1,6 +1,7 @@
 import React from 'react'
 import MainBanner from '../PageBanners/MainBannerOne';
 import Welcome from '../Common/Welcome';
+import Navigation from '../Navigation/Navigation';
 import About from '../Common/About';
 import Strategy from '../Common/Strategy';
 import WhoWeAre from '../Common/WhoWeAre';
@@ -26,26 +27,28 @@ class HomeOne extends React.Component {
     render(){
         return (
             <React.Fragment>
+                <Navigation />
+
                 {/* Main Banner */}
                 <MainBanner />
                 {/* Welcome Area */}
                 <Welcome />
                 {/* About Area */}
-                <About />
+                {/* <About /> */}
                 {/* Strategy Area */}
-                <Strategy />
+                {/* <Strategy /> */}
                 {/* Who We Are Area */}
-                <WhoWeAre />
+                {/* <WhoWeAre /> */}
                 {/* CTR Area */}
-                <Ctr />
+                {/* <Ctr /> */}
                 {/* Skill Area */}
-                <Skill />
+                {/* <Skill /> */}
                 {/* Fact Area */}
-                <Funfact />
+                {/* <Funfact /> */}
                 {/* Team Area */}
-                <Team />
+                {/* <Team /> */}
                 {/* How We Work */}
-                <HowWeWork />
+                {/* <HowWeWork /> */}
                 {/* Services Area */}
                 <Services />
                 {/* Why We Are Different */}
@@ -53,22 +56,22 @@ class HomeOne extends React.Component {
                 {/* Work Area */}
                 <Work />
                 {/* Price Area */}
-                <Price />
+                {/* <Price /> */}
                 {/* FAQ Area */}
-                <Faq />
+                {/* <Faq /> */}
                 {/* Testimonials Area */}
                 <Testimonial />
                 {/* Blog Area */}
                 <Blog />
                 {/* Partner Area */}
-                <Partner />
+                {/* <Partner /> */}
                 {/* Subscribe Area */}
-                <Subscribe />
+                {/* <Subscribe /> */}
                 {/* Contact Area */}
                 <Contact />
                 {/* Footer Area */}
                 <Footer />
-                <GoTop scrollStepInPx="50" delayInMs="16.66" />
+                <GoTop scrollStepInPx="100" delayInMs="16.66" />
             </React.Fragment>
         );
     }

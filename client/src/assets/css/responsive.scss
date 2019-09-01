@@ -7,7 +7,7 @@ $value_three: 991px;
 $value_four: 992px;
 $value_five: 1199px;
 $value_six: 1400px;
-$template_color: #ff2c57;
+$template_color: #54e3e9;
 
 @media only #{$media} and ($feature_max : $value_one) {
     .ptb-80 {
@@ -754,6 +754,12 @@ $template_color: #ff2c57;
                 }
             }
         }
+    }
+    .work-tech-spec{
+        position: static;
+        padding: 15px;
+        font-size: 15px;
+        border-left: 3px solid $template_color;
     }
     .post-controls-buttons {
         padding: {

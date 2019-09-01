@@ -16,6 +16,7 @@ import HomeEleven from './components/Pages/HomeEleven';
 import HomeTwelve from './components/Pages/HomeTwelve';
 import Blog from './components/Pages/Blog';
 import BlogDetails from './components/Pages/BlogDetails';
+import BlogDetailsPd from './components/Pages/BlogDetailsPd';
 
 class App extends React.Component {
 
@@ -47,9 +48,9 @@ class App extends React.Component {
             <Router onUpdate={this.hashLinkScroll}>
                 <React.Fragment>
                     {this.state.loading ? <Preloader /> : ''}
-                    <Navigation />
+                    {/* <Navigation /> */}
                     <Route path="/" exact component={HomeOne} />
-                    <Route path="/home-two" exact component={HomeTwo} />
+                    {/* <Route path="/home-two" exact component={HomeTwo} />
                     <Route path="/home-three" exact component={HomeThree} />
                     <Route path="/home-four" exact component={HomeFour} />
                     <Route path="/home-five" exact component={HomeFive} />
@@ -59,9 +60,10 @@ class App extends React.Component {
                     <Route path="/home-nine" exact component={HomeNine} />
                     <Route path="/home-ten" exact component={HomeTen} />
                     <Route path="/home-eleven" exact component={HomeEleven} />
-                    <Route path="/home-twelve" exact component={HomeTwelve} />
+                    <Route path="/home-twelve" exact component={HomeTwelve} /> */}
                     <Route path="/blog" exact component={Blog} />
-                    <Route path="/blog-details" exact component={BlogDetails} />
+                    <Route path="/blog-details" exact component={BlogDetails} /> 
+                    <Route path="/blog-details-pd" exact component={BlogDetailsPd} /> 
                 </React.Fragment>
             </Router>
         );

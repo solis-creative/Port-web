@@ -5,9 +5,9 @@ import { Link } from 'react-router-dom';
 import mixitup from "mixitup";
 
 const images = [
-    require("../../assets/images/work-img1.jpg"),
-    require("../../assets/images/work-img2.jpg"),
-    require("../../assets/images/work-img3.jpg"),
+    require("../../assets/images/arroe-mockup.png"),
+    require("../../assets/images/pd-mockup.png"),
+    require("../../assets/images/ecom-mockup.png"),
     require("../../assets/images/work-img4.jpg"),
     require("../../assets/images/work-img5.jpg"),
     require("../../assets/images/work-img6.jpg")
@@ -42,7 +42,7 @@ class Work extends React.Component {
                 <div className="container">
                     <div className="section-title">
                         <h2>Our <span>Work</span></h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <p>Happy clients that have used our services and expertise, to achieve their software goals, from applications to websites.</p>
                     </div>
                     
                     <div className="row">
@@ -56,33 +56,33 @@ class Work extends React.Component {
                                 </button>
                                 <button 
                                     className="filter" 
-                                    data-filter=".brand"
+                                    data-filter=".website"
                                 >
-                                    Brand
+                                    Website
                                 </button>
                                 <button 
                                     className="filter" 
-                                    data-filter=".design"
+                                    data-filter=".app"
                                 >
-                                    Design
+                                    Mobile Applications
                                 </button>
                                 <button 
                                     className="filter" 
-                                    data-filter=".graphic"
+                                    data-filter=".seo"
                                 >
-                                    Graphic
+                                    SEO
                                 </button>
                                 <button 
                                     className="filter" 
-                                    data-filter=".photoshop"
+                                    data-filter=".hosting"
                                 >
-                                    Photoshop
+                                    Hosting
                                 </button>
                                 <button 
                                     className="filter"
-                                    data-filter=".illustrator"
+                                    data-filter=".market"
                                 >
-                                    Illustrator
+                                    Marketing
                                 </button>
                             </div>
                         </div>
@@ -92,20 +92,18 @@ class Work extends React.Component {
                 <div className="shorting">
                     <div className="row m-0" id="mix-wrapper">
                         <div 
-                            className="col-lg-4 col-md-6 mix brand p-0 mix-target"
+                            className="col-lg-4 col-md-6 mix website seo p-0 mix-target"
                         >
                             <div className="single-work">
                                 <img src={images[0]} alt="work-img" />
                                 
                                 <div className="work-content">
-                                    <h4>Creative Design</h4>
-                                    <ul>
-                                        <li><Link to="#">Design</Link></li>
-                                        <li>.</li>
-                                        <li><Link to="#">Brand</Link></li>
-                                    </ul>
+                                    <h4>ARROE Co.</h4>
+                                    <Link to="/blog-details">Find Out More</Link>
                                 </div>
                                 
+
+                                {/* button to go to blog page */}
                                 <Link 
                                     to="#" 
                                     className="popup-btn"
@@ -115,18 +113,14 @@ class Work extends React.Component {
                         </div>
                         
                         <div 
-                            className="col-lg-4 col-md-6 mix design p-0 mix-target"
+                            className="col-lg-4 col-md-6 mix website app seo hosting p-0 mix-target"
                         >
                             <div className="single-work">
                                 <img src={images[1]} alt="work-img" />
                                 
                                 <div className="work-content">
-                                    <h4>Creative Design</h4>
-                                    <ul>
-                                        <li><Link to="#">Design</Link></li>
-                                        <li>.</li>
-                                        <li><Link to="#">Brand</Link></li>
-                                    </ul>
+                                    <h4>Petrichor Designs Ltd.</h4>
+                                    <Link to="/blog-details-pd">Find Out More</Link>
                                 </div>
                                 
                                 <Link 
@@ -139,12 +133,12 @@ class Work extends React.Component {
                             </div>
                         </div>
                         
-                        <div className="col-lg-4 col-md-6 mix graphic p-0 mix-target">
+                        <div className="col-lg-4 col-md-6 mix website app seo p-0 mix-target">
                             <div className="single-work">
                                 <img src={images[2]} alt="work-img" />
                                 
                                 <div className="work-content">
-                                    <h4>Creative Design</h4>
+                                    <h4>Petrichor Designs Application</h4>
                                     <ul>
                                         <li><Link to="#">Design</Link></li>
                                         <li>.</li>
@@ -162,7 +156,7 @@ class Work extends React.Component {
                             </div>
                         </div>
                         
-                        <div className="col-lg-4 col-md-6 mix photoshop p-0 mix-target">
+                        <div className="col-lg-4 col-md-6 mix market p-0 mix-target">
                             <div className="single-work">
                                 <img src={images[3]} alt="work-img" />
                                 
