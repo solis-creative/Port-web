@@ -8,7 +8,7 @@ const images = [
     require("../../assets/images/arroe-mockup.png"),
     require("../../assets/images/pd-mockup.png"),
     require("../../assets/images/ecom-mockup.png"),
-    require("../../assets/images/work-img4.jpg"),
+    require("../../assets/images/mockup-lizzy.png"),
     require("../../assets/images/work-img5.jpg"),
     require("../../assets/images/work-img6.jpg")
 ];
@@ -138,12 +138,8 @@ class Work extends React.Component {
                                 <img src={images[2]} alt="work-img" />
                                 
                                 <div className="work-content">
-                                    <h4>Petrichor Designs Application</h4>
-                                    <ul>
-                                        <li><Link to="#">Design</Link></li>
-                                        <li>.</li>
-                                        <li><Link to="#">Brand</Link></li>
-                                    </ul>
+                                    <h4>E-Commerce Application</h4>
+                                    <Link to="/blog-details-pd">Find Out More</Link>
                                 </div>
                                 
                                 <Link 
@@ -161,12 +157,8 @@ class Work extends React.Component {
                                 <img src={images[3]} alt="work-img" />
                                 
                                 <div className="work-content">
-                                    <h4>Creative Design</h4>
-                                    <ul>
-                                        <li><Link to="#">Design</Link></li>
-                                        <li>.</li>
-                                        <li><Link to="#">Brand</Link></li>
-                                    </ul>
+                                    <h4>Lizzy's Car Wash</h4>
+                                    <Link to="/blog-details-pd">Find Out More</Link>
                                 </div>
                                 
                                 <Link 

@@ -62,7 +62,7 @@ class HomeOne extends React.Component {
                 {/* Testimonials Area */}
                 <Testimonial />
                 {/* Blog Area */}
-                <Blog />
+                {/* <Blog /> */}
                 {/* Partner Area */}
                 {/* <Partner /> */}
                 {/* Subscribe Area */}

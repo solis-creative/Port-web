@@ -8,10 +8,10 @@ const CustomComponent = ({ text }) => <div><img src="http://ruralshores.com/asse
 class Contact extends React.Component {
     static defaultProps = {
         center: {
-            lat: 59.95,
-            lng: 30.33
+            lat: 51.52727,
+            lng: -0.08892
         },
-        zoom: 11
+        zoom:13
     };
 
     state = {
@@ -117,8 +117,8 @@ class Contact extends React.Component {
                                         defaultZoom={this.props.zoom}
                                     >
                                         <CustomComponent
-                                            lat={59.955413}
-                                            lng={30.337844}
+                                            lat={51.52727}
+                                            lng={-0.08892}
                                             text="Marker"
                                         />
                                     </GoogleMapReact>
@@ -128,7 +128,7 @@ class Contact extends React.Component {
                             <div className="contact-info">
                                 <ul>
                                     <li>
-                                        <i className="fa fa-map-marker"></i> Exercisplan 4, 111 49 Stockholm, Sweden
+                                        <i className="fa fa-map-marker"></i> Kemp House, City Road, London, City Of London
                                     </li>
                                     <li>
                                         <i className="fa fa-envelope"></i> 
@@ -137,10 +137,6 @@ class Contact extends React.Component {
                                     <li>
                                         <i className="fa fa-phone"></i> 
                                         <Link to="#">(+124)412-2445515</Link>
-                                    </li>
-                                    <li>
-                                        <i className="fa fa-fax"></i> 
-                                        <Link to="#">617-241-60055</Link>
                                     </li>
                                 </ul>
                             </div>
