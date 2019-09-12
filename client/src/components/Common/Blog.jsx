@@ -35,7 +35,6 @@ class Blog extends React.Component {
                     <div className="section-title">
                         <h4>Our News</h4>
                         <h2>Latest Blog <span>Posts</span></h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                     </div>
                     
                     <div className="row">

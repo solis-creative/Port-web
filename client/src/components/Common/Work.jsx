@@ -9,7 +9,7 @@ const images = [
     require("../../assets/images/pd-mockup.png"),
     require("../../assets/images/ecom-mockup.png"),
     require("../../assets/images/mockup-lizzy.png"),
-    require("../../assets/images/work-img5.jpg"),
+    require("../../assets/images/wish-mockup.png"),
     require("../../assets/images/work-img6.jpg")
 ];
  
@@ -92,7 +92,7 @@ class Work extends React.Component {
                 <div className="shorting">
                     <div className="row m-0" id="mix-wrapper">
                         <div 
-                            className="col-lg-4 col-md-6 mix website seo p-0 mix-target"
+                            className="col-lg-4 col-md-6 mix website p-0 mix-target"
                         >
                             <div className="single-work">
                                 <img src={images[0]} alt="work-img" />
@@ -152,7 +152,7 @@ class Work extends React.Component {
                             </div>
                         </div>
                         
-                        <div className="col-lg-4 col-md-6 mix market p-0 mix-target">
+                        <div className="col-lg-4 col-md-6 mix market app p-0 mix-target">
                             <div className="single-work">
                                 <img src={images[3]} alt="work-img" />
                                 
@@ -171,17 +171,13 @@ class Work extends React.Component {
                             </div>
                         </div>
                         
-                        <div className="col-lg-4 col-md-6 mix design p-0 mix-target">
+                        <div className="col-lg-4 col-md-6 mix design website seo  hosting p-0 mix-target">
                             <div className="single-work">
                                 <img src={images[4]} alt="work-img" />
                                 
                                 <div className="work-content">
-                                    <h4>Creative Design</h4>
-                                    <ul>
-                                        <li><Link to="#">Design</Link></li>
-                                        <li>.</li>
-                                        <li><Link to="#">Brand</Link></li>
-                                    </ul>
+                                    <h4>Wish Lounge</h4>
+                                    <Link to="/blog-details-wish">Find Out More</Link>
                                 </div>
                                 
                                 <Link 

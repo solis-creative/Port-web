@@ -86,17 +86,15 @@ class WhyWeDifferent extends React.Component {
                                             <div className="col-lg-6 col-md-6">
                                                 <div className="why-we-different-text">
                                                     <h4>Dedicated Account Managers</h4>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                                                    <p>We pride ourselves in perfection, this is why we have decided to allocated a dedicated account manager to all of our projects, no matter the size. </p>
                                                     <ul>
-                                                        <li><i className="fa fa-check"></i>Creative Design</li>
-                                                        <li><i className="fa fa-check"></i>Retina Ready</li>
-                                                        <li><i className="fa fa-check"></i>Responsive Design</li>
-                                                        <li><i className="fa fa-check"></i>Modern Design</li>
-                                                        <li><i className="fa fa-check"></i>Awesome Design</li>
-                                                        <li><i className="fa fa-check"></i>Digital Marketing & Branding</li>
+                                                        <li><i className="fa fa-check"></i>Always available to answer any questions</li>
+                                                        <li><i className="fa fa-check"></i>Always there to listen to your needs</li>
+                                                        <li><i className="fa fa-check"></i>Pass comments and feedback onto the coders</li>
+                                                        <li><i className="fa fa-check"></i>Delivering you peace of mind</li>
+                                                        <li><i className="fa fa-check"></i>Ensuring the best service is provided to our clients</li>
                                                     </ul>
                                                     
-                                                    <Link to="#" className="btn btn-primary">Read More</Link>
                                                 </div>
                                             </div>
                                             
@@ -113,17 +111,16 @@ class WhyWeDifferent extends React.Component {
                                             <div className="col-lg-6 col-md-6">
                                                 <div className="why-we-different-text">
                                                     <h4>Free Initial Consultation</h4>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                                                    <p>We provide a free initial consultation, so that you can get an idea of our pricing and what we are able to provide you. This allows us and you to get more information about what is needed.</p>
                                                     <ul>
-                                                        <li><i className="fa fa-check"></i>Creative Design</li>
-                                                        <li><i className="fa fa-check"></i>Retina Ready</li>
-                                                        <li><i className="fa fa-check"></i>Responsive Design</li>
-                                                        <li><i className="fa fa-check"></i>Modern Design</li>
-                                                        <li><i className="fa fa-check"></i>Awesome Design</li>
-                                                        <li><i className="fa fa-check"></i>Digital Marketing & Branding</li>
+                                                        <li><i className="fa fa-check"></i>Understanding your project</li>
+                                                        <li><i className="fa fa-check"></i>Understanding our services</li>
+                                                        <li><i className="fa fa-check"></i>Talking through Design </li>
+                                                        <li><i className="fa fa-check"></i>What are the goals and objects for your project?</li>
+                                                        <li><i className="fa fa-check"></i>Creating a launch date</li>
+                                                        <li><i className="fa fa-check"></i>Understanding pricing</li>
                                                     </ul>
                                                     
-                                                    <Link to="#" className="btn btn-primary">Read More</Link>
                                                 </div>
                                             </div>
                                             
@@ -140,17 +137,15 @@ class WhyWeDifferent extends React.Component {
                                             <div className="col-lg-6 col-md-6">
                                                 <div className="why-we-different-text">
                                                     <h4>Design Advice</h4>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                                                    <p>We don’t only code things and give them to you, we like to help with everything to ensure that you are given the best service possible. </p>
                                                     <ul>
-                                                        <li><i className="fa fa-check"></i>Creative Design</li>
-                                                        <li><i className="fa fa-check"></i>Retina Ready</li>
-                                                        <li><i className="fa fa-check"></i>Responsive Design</li>
-                                                        <li><i className="fa fa-check"></i>Modern Design</li>
-                                                        <li><i className="fa fa-check"></i>Awesome Design</li>
-                                                        <li><i className="fa fa-check"></i>Digital Marketing & Branding</li>
+                                                        <li><i className="fa fa-check"></i>Colour schemes </li>
+                                                        <li><i className="fa fa-check"></i>Graphic packs</li>
+                                                        <li><i className="fa fa-check"></i>Logos</li>
+                                                        <li><i className="fa fa-check"></i>Banners</li>
+                                                        <li><i className="fa fa-check"></i>Text and image positioning</li>
                                                     </ul>
                                                     
-                                                    <Link to="#" className="btn btn-primary">Read More</Link>
                                                 </div>
                                             </div>
                                             
@@ -166,18 +161,17 @@ class WhyWeDifferent extends React.Component {
                                         <div className="row">
                                             <div className="col-lg-6 col-md-6">
                                                 <div className="why-we-different-text">
-                                                    <h4>24/7 support</h4>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                                                    <h4>Expertise in different areas</h4>
+                                                    <p>We have a large team, who are experts in different areas. We can create and provide support to your business in many areas.</p>
                                                     <ul>
-                                                        <li><i className="fa fa-check"></i>Creative Design</li>
-                                                        <li><i className="fa fa-check"></i>Retina Ready</li>
-                                                        <li><i className="fa fa-check"></i>Responsive Design</li>
-                                                        <li><i className="fa fa-check"></i>Modern Design</li>
-                                                        <li><i className="fa fa-check"></i>Awesome Design</li>
-                                                        <li><i className="fa fa-check"></i>Digital Marketing & Branding</li>
+                                                        <li><i className="fa fa-check"></i>App experts</li>
+                                                        <li><i className="fa fa-check"></i>Website experts </li>
+                                                        <li><i className="fa fa-check"></i>Design experts</li>
+                                                        <li><i className="fa fa-check"></i>SEO</li>
+                                                        <li><i className="fa fa-check"></i>Marketing experts </li>
+                                                        <li><i className="fa fa-check"></i>Various consultants</li>
                                                     </ul>
                                                     
-                                                    <Link to="#" className="btn btn-primary">Read More</Link>
                                                 </div>
                                             </div>
                                             

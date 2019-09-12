@@ -7,7 +7,6 @@ class HowWeWork extends React.Component {
                 <div className="container">
                     <div className="section-title">
                         <h2>How We <span>Work</span></h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                     </div>
                 
                     <div className="row">

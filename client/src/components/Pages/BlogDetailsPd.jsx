@@ -66,9 +66,9 @@ class BlogDetailsPd extends React.Component {
                                         
                                         <p> This database hold the information to allow the device to detect the voltage output and input, therefore increading the life span of the product it self and the device it is charging, as no over or under charging will happen.</p>
 
-                                        <blockquote className="blockquote">
+                                        {/* <blockquote className="blockquote">
                                             <p className="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, iste? Aut ipsam consequuntur non rem tenetur dolore consequatur ducimus Link labore excepturi quae nisi, quisquam, maxime voluptates magnam aliquid. Cupiditate.</p>
-                                        </blockquote>
+                                        </blockquote> */}
 
                                         <h5>Application Development</h5>
 
@@ -86,7 +86,7 @@ class BlogDetailsPd extends React.Component {
 
                                         <p>At Solis we strive to solve any software problems that may occur, and find a solution to your problem with the use of software and different technologies. The backend admin system was succesffully implemented into Pd's eco-system and has worked well since launch. Proud of the project we service the system and host, the website and the backend system all on the servers we provide.</p>
 
-                                        <div className="author-share">
+                                        {/* <div className="author-share">
                                             <div className="row">
                                                 <div className="col-lg-6 col-md-6">
                                                     <div className="article-author">
@@ -115,7 +115,7 @@ class BlogDetailsPd extends React.Component {
                                                     </ul>
                                                 </div>
                                             </div>
-                                        </div>
+                                        </div> */}
                                     </div>
                                 </div>
                             </div>

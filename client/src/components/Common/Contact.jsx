@@ -104,7 +104,6 @@ class Contact extends React.Component {
                     <div className="section-title">
                         <h4>Get in Touch</h4>
                         <h2><span>Contact</span> Us</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                     </div>
                     
                     <div className="row">
@@ -133,10 +132,6 @@ class Contact extends React.Component {
                                     <li>
                                         <i className="fa fa-envelope"></i> 
                                         <Link to="#">info@soliscreative.co.uk</Link>
-                                    </li>
-                                    <li>
-                                        <i className="fa fa-phone"></i> 
-                                        <Link to="#">(+124)412-2445515</Link>
                                     </li>
                                 </ul>
                             </div>
