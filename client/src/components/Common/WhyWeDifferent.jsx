@@ -86,7 +86,7 @@ class WhyWeDifferent extends React.Component {
                                             <div className="col-lg-6 col-md-6">
                                                 <div className="why-we-different-text">
                                                     <h4>Dedicated Account Managers</h4>
-                                                    <p>We pride ourselves in perfection, this is why we have decided to allocated a dedicated account manager to all of our projects, no matter the size. </p>
+                                                    <p>We pride ourselves in perfection, this is why we have decided to allocate a dedicated account manager to all of our projects, no matter the size. </p>
                                                     <ul>
                                                         <li><i className="fa fa-check"></i>Always available to answer any questions</li>
                                                         <li><i className="fa fa-check"></i>Always there to listen to your needs</li>

@@ -5,7 +5,7 @@ import '../../assets/css/style.scss';
 import '../../assets/css/responsive.scss';
 import React from 'react';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
-import textImg from '../../assets/images/text-para.png';
+import textImg from '../../assets/images/logo-top.png';
 
  
 class MainBanner extends React.Component {
@@ -18,8 +18,12 @@ class MainBanner extends React.Component {
                             <div className="row">
                                 <div className="col-lg-4 col-md-4">
                                     {/* <div id="text-para-img"></div> */}
+                                    <span className="image-container">
+                                        <img className="main-banner-img" src={textImg} alt='logo image solis creative'/>
+                                    </span>
                                     <div className="main-banner-text">
-                                        <h4>We Are Creative</h4><br></br>
+                                        <p>Your Solution to your software problems!</p>
+                                        <p>Solis Creative, Software Solutions</p>
                                         <AnchorLink href="#welcome" className="btn btn-primary">Get Started</AnchorLink>
                                         <AnchorLink href="#work" className="btn btn-primary view-work">View Work</AnchorLink>
                                     </div>

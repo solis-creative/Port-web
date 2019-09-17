@@ -22,6 +22,7 @@ $template_color: #54e3e9;
     }
     .btn {
         font-size: 14px;
+        margin: 10px;
     }
     .owl-theme {
         .owl-nav {
@@ -50,7 +51,14 @@ $template_color: #54e3e9;
             font-size: 14px;
         }
     }
-    
+    .nav-title{
+        display: none;
+    }
+    .nav-img{
+        display: block;
+        width: 64px;
+        padding: 8px;
+    }
     .navbar {
 		position: relative;
         padding: {
@@ -103,7 +111,16 @@ $template_color: #54e3e9;
             bottom: 0;
         }
     }
+
+    .image-container{
+        display: none;
+    }
+    
     .main-banner-text {
+        position: relative;
+        bottom: -100px;
+        width: 70%;
+        margin: auto;
         h4 {
             font-size: 20px;
             letter-spacing: 0;
@@ -118,10 +135,8 @@ $template_color: #54e3e9;
             line-height: 45px;
         }
         p {
-            font-size: 15px;
-        }
-        .view-work {
-            margin-left: 0;
+            font-size: 18px;
+            font-weight: 400;
         }
     }
 
@@ -901,7 +916,10 @@ $template_color: #54e3e9;
             bottom: 0;
         }
     }
+
     .main-banner-text {
+        position: relative;
+        
         h4 {
             font-size: 18px;
         }

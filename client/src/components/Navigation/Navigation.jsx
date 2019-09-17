@@ -6,6 +6,8 @@ import '../../assets/css/responsive.scss';
 import React from 'react';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import { Link, withRouter  } from 'react-router-dom';
+import logo from '../../assets/images/logo-top.png';
+
  
 class Navigation extends React.Component {
     state = {
@@ -67,8 +69,8 @@ class Navigation extends React.Component {
                     <li className="nav-item">
                         <Link 
                             className="nav-link" 
-                            to="/#about"
-                            onClick={() => this.goToId("/#about")}
+                            to="/#welcome"
+                            onClick={() => this.goToId("/#welcome")}
                         >
                             About
                         </Link>
@@ -111,7 +113,7 @@ class Navigation extends React.Component {
                     <AnchorLink onClick={this.toggleNavbar} offset={() => 85} className="nav-link" href="#home">Home</AnchorLink>
                 </li>
                 <li className="nav-item">
-                    <AnchorLink onClick={this.toggleNavbar} offset={() => 85} className="nav-link" href="#about">About</AnchorLink>
+                    <AnchorLink onClick={this.toggleNavbar} offset={() => 85} className="nav-link" href="#welcome">About</AnchorLink>
                 </li>
                 <li className="nav-item">
                     <AnchorLink onClick={this.toggleNavbar} offset={() => 85} className="nav-link" href="#services">Services</AnchorLink>
@@ -141,7 +143,8 @@ class Navigation extends React.Component {
                         to="/"
                         onClick={() => window.location.reload()}
                     >
-                        <span>SOLIS</span> Creative
+                        <div className="nav-title"><span>SOLIS</span> Creative</div>
+                        <img className="nav-img" src={logo} />
                     </Link>
                     <button 
                         onClick={this.toggleNavbar}

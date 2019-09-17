@@ -2,9 +2,12 @@ import React from 'react';
 import { Link } from "react-router-dom";
 import GoogleMapReact from 'google-map-react';
 import 'isomorphic-fetch';
+import axios  from 'axios';
+
 
 const CustomComponent = ({ text }) => <div><img src="http://ruralshores.com/assets/marker-icon.png" alt="map" /></div>;
- 
+const nodemailer = require('nodemailer');
+
 class Contact extends React.Component {
     static defaultProps = {
         center: {
@@ -29,14 +32,13 @@ class Contact extends React.Component {
     onSubmit = (e) => {
         e.preventDefault();
         const data = this.state.formFields;
-        fetch('/api/contact', {
-            method: 'post',
-            headers: {
-                'Accept': 'application/json, text/plain, */*',
-                'Content-Type': 'application/json'
-            },
-            body: JSON.stringify(data)
+        axios.post('https://formspree.io/myarzgqm', {
+                "First Name": data['name'],
+                "Email":      data['email'],
+                "Phone":     data['phone'],
+                "Message":   data['text']
         }).then(res => {
+            console.log(data);
             if (res.status === 200) {
                 this.setState({ submitted: true })
             }
@@ -47,6 +49,25 @@ class Contact extends React.Component {
             formFields.text = '';
             this.setState({formFields});
         });
+        // fetch('/api/contact', {
+        //     method: 'post',
+        //     headers: {
+        //         'Accept': 'application/json, text/plain, */*',
+        //         'Content-Type': 'application/json'
+        //     },
+        //     body: JSON.stringify(data)
+        // }).then(res => {
+        //     console.log(data);
+        //     if (res.status === 200) {
+        //         this.setState({ submitted: true })
+        //     }
+        //     let formFields = Object.assign({}, this.state.formFields);
+        //     formFields.name = '';
+        //     formFields.email = '';
+        //     formFields.phone = '';
+        //     formFields.text = '';
+        //     this.setState({formFields});
+        // });
     }
 
     nameChangeHandler = (e) => {
@@ -132,6 +153,10 @@ class Contact extends React.Component {
                                     <li>
                                         <i className="fa fa-envelope"></i> 
                                         <Link to="#">info@soliscreative.co.uk</Link>
+                                    </li>
+                                    <li>
+                                        <i className="fa fa-phone"></i> 
+                                        <Link to="#">(+44) 07469 940586</Link>
                                     </li>
                                 </ul>
                             </div>
