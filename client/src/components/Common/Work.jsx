@@ -190,7 +190,7 @@ class Work extends React.Component {
                             </div>
                         </div>
                         
-                        <div className="col-lg-4 col-md-6 mix illustrator p-0 mix-target">
+                        {/* <div className="col-lg-4 col-md-6 mix illustrator p-0 mix-target">
                             <div className="single-work">
                                 <img src={images[5]} alt="work-img" />
                                 
@@ -211,7 +211,7 @@ class Work extends React.Component {
                                     <i className="fa fa-plus"></i>
                                 </Link>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
                 {isOpen && (

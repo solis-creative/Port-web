@@ -23,7 +23,6 @@ class MainBanner extends React.Component {
                                     </span>
                                     <div className="main-banner-text">
                                         <p>Your Solution to your software problems!</p>
-                                        <p>Solis Creative, Software Solutions</p>
                                         <AnchorLink href="#welcome" className="btn btn-primary">Get Started</AnchorLink>
                                         <AnchorLink href="#work" className="btn btn-primary view-work">View Work</AnchorLink>
                                     </div>
