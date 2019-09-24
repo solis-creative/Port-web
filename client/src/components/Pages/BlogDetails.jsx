@@ -62,27 +62,11 @@ class BlogDetails extends React.Component {
                                         
                                         <p> This database hold the information to allow the device to detect the voltage output and input, therefore increading the life span of the product it self and the device it is charging, as no over or under charging will happen.</p>
 
-                                        <blockquote className="blockquote">
-                                            <p className="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, iste? Aut ipsam consequuntur non rem tenetur dolore consequatur ducimus Link labore excepturi quae nisi, quisquam, maxime voluptates magnam aliquid. Cupiditate.</p>
-                                        </blockquote>
+                                        
 
-                                        <div className="author-share">
+                                        {/* <div className="author-share">
                                             <div className="row">
-                                                <div className="col-lg-6 col-md-6">
-                                                    <div className="article-author">
-                                                        <div className="author-img">
-                                                            <img 
-                                                                src={clientImageOne}
-                                                                alt="client"
-                                                            />
-                                                        </div>
-
-                                                        <div className="author-title">
-                                                            <h4>John Smith</h4>
-                                                            <span>Back-End Developer</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
+                                                
                                                 
                                                 <div className="col-lg-6 col-md-6">
                                                     <ul className="social-share">
@@ -95,7 +79,7 @@ class BlogDetails extends React.Component {
                                                     </ul>
                                                 </div>
                                             </div>
-                                        </div>
+                                        </div> */}
                                     </div>
                                 </div>
                             </div>

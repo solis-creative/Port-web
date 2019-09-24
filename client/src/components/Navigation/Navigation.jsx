@@ -92,13 +92,6 @@ class Navigation extends React.Component {
                     <li className="nav-item">
                         <Link 
                             className="nav-link" 
-                            to="/#blog"
-                            onClick={() => this.goToId("/#blog")}
-                        >Blog</Link>
-                    </li>
-                    <li className="nav-item">
-                        <Link 
-                            className="nav-link" 
                             to="/#contact"
                             onClick={() => this.goToId("/#contact")}
                         >Contact</Link>
@@ -120,9 +113,6 @@ class Navigation extends React.Component {
                 </li>
                 <li className="nav-item">
                     <AnchorLink onClick={this.toggleNavbar} offset={() => 85} className="nav-link" href="#work">Work</AnchorLink>
-                </li>
-                <li className="nav-item">
-                    <AnchorLink onClick={this.toggleNavbar} offset={() => 85} className="nav-link" href="#blog">Blog</AnchorLink>
                 </li>
                 <li className="nav-item">
                     <AnchorLink onClick={this.toggleNavbar} offset={() => 85} className="nav-link" href="#contact">Contact</AnchorLink>

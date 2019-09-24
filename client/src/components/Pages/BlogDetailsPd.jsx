@@ -62,7 +62,7 @@ class BlogDetailsPd extends React.Component {
 
                                         <h6>Colour Scheme</h6>
                                         <div className="colour-wheel-pd"></div>
-                                        <p className="mb-0">Within the basic website development to showcase the product fo LAER and Product power solutions, a backend system was integrated using Amazon Web Servers and Python Scripts running on Ubuntu, to allow all information about Laptops being held, such as: the brand details including make and model, power capacity and power output.</p>
+                                        <p className="mb-0">Petrichor Designs had the goal of showcasing their work they have worked on but also keeping the contact with clients. The client describes their industry field with human contact and not working on the website or over the phone, so they wanted to avoid bookings and consultation online; as they can sell their product and services in person much better. So, keeping that in mind the website was designed is a simple 3 page website that always directs the user to the end goal of contacting Pd, not leaving the site. </p>
                                         
                                         <p> This database hold the information to allow the device to detect the voltage output and input, therefore increading the life span of the product it self and the device it is charging, as no over or under charging will happen.</p>
 

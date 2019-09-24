@@ -105,7 +105,7 @@ class Contact extends React.Component {
                     className="alert alert-success alert-dismissible fade show" 
                     style={{ marginTop: '14px' }}
                 >
-                    <strong>Thank you!</strong> Your message is send to the owner.
+                    <strong>Thank you!</strong> Your message has been sent!
                     <button 
                         type="button" 
                         className="close"

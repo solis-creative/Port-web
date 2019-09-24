@@ -18,7 +18,7 @@ class Welcome extends React.Component {
                                 <i className="fa fa-pencil-square-o icon"></i>
                                 <h3>Creative Design</h3>
                                 <p>A team of artistic people, who can understand what you want, and bring it to life.</p>
-                                <Link to="#" title="Read More" className="link-btn"><i className="fa fa-arrow-right"></i></Link>
+                                
                             </div>
                         </div>
                         
@@ -27,7 +27,7 @@ class Welcome extends React.Component {
                                 <i className="fa fa-laptop icon"></i>
                                 <h3>Develop</h3>
                                 <p>Whether you are looking to create the latest app or a programme to organise your household chores, we are here to create that for you. </p>
-                                <Link to="#" title="Read More" className="link-btn"><i className="fa fa-arrow-right"></i></Link>
+                                
                             </div>
                         </div>
                         
@@ -36,7 +36,7 @@ class Welcome extends React.Component {
                                 <i className="fa fa-life-ring icon"></i>
                                 <h3>Solve</h3>
                                 <p>We are here to solve and support our clients with any issues they may have.</p>
-                                <Link to="#" title="Read More" className="link-btn"><i className="fa fa-arrow-right"></i></Link>
+                                
                             </div>
                         </div>
                     </div>
