@@ -18,6 +18,7 @@ import Blog from './components/Pages/Blog';
 import BlogDetails from './components/Pages/BlogDetails';
 import BlogDetailsPd from './components/Pages/BlogDetailsPd';
 import BlogDetailsWish from './components/Pages/BlogDetailsWish';
+import BlogDetailsBPW from './components/Pages/BlogDetailsBPW';
 
 class App extends React.Component {
 
@@ -66,6 +67,7 @@ class App extends React.Component {
                     <Route path="/blog-details" exact component={BlogDetails} /> 
                     <Route path="/blog-details-pd" exact component={BlogDetailsPd} /> 
                     <Route path="/blog-details-wish" exact component={BlogDetailsWish} /> 
+                    <Route path="/blog-details-bpw" exact component={BlogDetailsBPW} /> 
                 </React.Fragment>
             </Router>
         );

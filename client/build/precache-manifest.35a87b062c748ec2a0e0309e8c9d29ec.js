@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "e90cd09b4443096ff59e9bed2242b883",
-    "url": "/static/media/cover.e90cd09b.png"
+    "revision": "623cdc5fa974b7f24cfc0822ae87bad4",
+    "url": "/static/media/text-para.623cdc5f.png"
   },
   {
-    "revision": "9535995a168a0d6b1d39",
-    "url": "/static/css/main.a93b85e1.chunk.css"
+    "revision": "bfb96a8430b5565aed72",
+    "url": "/static/css/main.c0761653.chunk.css"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -48,8 +48,8 @@ self.__precacheManifest = [
     "url": "/static/media/wish-mockup.d0f38009.png"
   },
   {
-    "revision": "af7ae505a9eed503f8b8e6982036873e",
-    "url": "/static/media/fontawesome-webfont.af7ae505.woff2"
+    "revision": "b06871f281fee6b241d60582ae9369b9",
+    "url": "/static/media/fontawesome-webfont.b06871f2.ttf"
   },
   {
     "revision": "674f50d287a8c48dc19ba404d20fe713",
@@ -60,32 +60,32 @@ self.__precacheManifest = [
     "url": "/static/media/fontawesome-webfont.fee66e71.woff"
   },
   {
-    "revision": "b06871f281fee6b241d60582ae9369b9",
-    "url": "/static/media/fontawesome-webfont.b06871f2.ttf"
+    "revision": "af7ae505a9eed503f8b8e6982036873e",
+    "url": "/static/media/fontawesome-webfont.af7ae505.woff2"
   },
   {
     "revision": "912ec66d7572ff821749319396470bde",
     "url": "/static/media/fontawesome-webfont.912ec66d.svg"
   },
   {
-    "revision": "623cdc5fa974b7f24cfc0822ae87bad4",
-    "url": "/static/media/text-para.623cdc5f.png"
-  },
-  {
-    "revision": "9535995a168a0d6b1d39",
-    "url": "/static/js/main.e61cf30b.chunk.js"
-  },
-  {
     "revision": "77ec1b528f027a0e5f71d229f208aef1",
     "url": "/static/media/about-strategy.77ec1b52.jpg"
+  },
+  {
+    "revision": "bfb96a8430b5565aed72",
+    "url": "/static/js/main.f1cee19f.chunk.js"
+  },
+  {
+    "revision": "d356088ca7c4ab037483fda5cd9fa1a6",
+    "url": "/static/media/ctr-bg.d356088c.jpg"
   },
   {
     "revision": "d356088ca7c4ab037483fda5cd9fa1a6",
     "url": "/static/media/funfact-bg.d356088c.jpg"
   },
   {
-    "revision": "d356088ca7c4ab037483fda5cd9fa1a6",
-    "url": "/static/media/ctr-bg.d356088c.jpg"
+    "revision": "e90cd09b4443096ff59e9bed2242b883",
+    "url": "/static/media/cover.e90cd09b.png"
   },
   {
     "revision": "6ecdd7d69f2025ef7aff0bdbfc1f6a6a",
@@ -136,11 +136,15 @@ self.__precacheManifest = [
     "url": "/static/media/mockup-lizzy.879c6a8d.png"
   },
   {
+    "revision": "e567c4115892868813c92b596a45c851",
+    "url": "/static/media/bpw-mockup.e567c411.png"
+  },
+  {
     "revision": "4f04bd92dc7d8214ad5b",
     "url": "/static/css/2.f2cf786b.chunk.css"
   },
   {
-    "revision": "cd277058c3f993a9a9b88740ab8d19f8",
+    "revision": "99a6414aae9be130a9254e28ed8d2b56",
     "url": "/index.html"
   }
 ];

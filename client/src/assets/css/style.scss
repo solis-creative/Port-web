@@ -2282,6 +2282,25 @@ Blog Details Area CSS
             -ms-transform: rotate(45deg);
             transform: rotate(45deg);
         }
+        .colour-wheel-wish{
+            border-radius: 50px;
+            border-right-color: white;
+            border-top-color: black;
+            border-bottom-color: grey;
+            border-left-color: lightgrey;
+            border-width: 50px;
+            border-style: solid;
+            height: 0px;
+            width: 0px;
+            margin: auto;
+            
+            /* To ratate */
+            -webkit-transform: rotate(45deg);
+            -moz-transform: rotate(45deg);
+            -o-transform: rotate(45deg);
+            -ms-transform: rotate(45deg);
+            transform: rotate(45deg);
+        }
         ul {
             li {
                 display: inline-block;
