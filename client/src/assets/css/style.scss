@@ -61,9 +61,10 @@ body {
     font-family: $font_family;
 }
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
-	margin-bottom: 0;
 	font-weight: 400;
-	line-height: 1;
+    line-height: 1;
+    padding-bottom: 16px;
+    padding-top: 22px;
 }
 ul {
     padding-left: 0;
@@ -1584,9 +1585,11 @@ Work Area CSS
         opacity: 0;
         visibility: hidden;
         transition: .4s;
+        border-radius: 15px;
         h4 {
             font-size: 22px;
             margin-bottom: 10px;
+            padding: 0px;
         }
         ul {
             li {

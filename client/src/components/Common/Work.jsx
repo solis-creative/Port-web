@@ -10,7 +10,7 @@ const images = [
     require("../../assets/images/ecom-mockup.png"),
     require("../../assets/images/mockup-lizzy.png"),
     require("../../assets/images/wish-mockup.png"),
-    require("../../assets/images/work-img6.jpg")
+    require("../../assets/images/bpw-mockup.png")
 ];
  
 class Work extends React.Component {
@@ -190,17 +190,13 @@ class Work extends React.Component {
                             </div>
                         </div>
                         
-                        {/* <div className="col-lg-4 col-md-6 mix illustrator p-0 mix-target">
+                        <div className="col-lg-4 col-md-6 mix design website seo  hosting p-0 mix-target">
                             <div className="single-work">
                                 <img src={images[5]} alt="work-img" />
                                 
                                 <div className="work-content">
-                                    <h4>Creative Design</h4>
-                                    <ul>
-                                        <li><Link to="#">Design</Link></li>
-                                        <li>.</li>
-                                        <li><Link to="#">Brand</Link></li>
-                                    </ul>
+                                    <h4>Battersea Power Wash</h4>
+                                    <Link to="/blog-details-bpw">Find Out More</Link>
                                 </div>
                                 
                                 <Link 
@@ -211,7 +207,8 @@ class Work extends React.Component {
                                     <i className="fa fa-plus"></i>
                                 </Link>
                             </div>
-                        </div> */}
+                        </div>
+
                     </div>
                 </div>
                 {isOpen && (
