@@ -139,7 +139,7 @@ class Work extends React.Component {
                                 <img src={images[6]} alt="work-img" />
                                 
                                 <div className="work-content">
-                                    <h4>E-Commerce Application</h4>
+                                    <h4>Zen Distributors</h4>
                                     <Link to="/ecom-web">Find Out More</Link>
                                 </div>
                                 
@@ -160,7 +160,7 @@ class Work extends React.Component {
                                 <div className="work-content">
                                     <h4>Lizzy's Car Wash</h4>
                                     <Link to="/liz-web">Find Out More</Link>
-                                </div>
+                                </div>  
                                 
                                 <Link 
                                     to="#" 
