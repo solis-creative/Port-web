@@ -19,6 +19,8 @@ import BlogDetails from './components/Pages/BlogDetails';
 import BlogDetailsPd from './components/Pages/BlogDetailsPd';
 import BlogDetailsWish from './components/Pages/BlogDetailsWish';
 import BlogDetailsBPW from './components/Pages/BlogDetailsBPW';
+import Ecom from './components/Pages/Ecom';
+import Liz from './components/Pages/Liz';
 
 class App extends React.Component {
 
@@ -67,7 +69,9 @@ class App extends React.Component {
                     <Route path="/blog-details" exact component={BlogDetails} /> 
                     <Route path="/blog-details-pd" exact component={BlogDetailsPd} /> 
                     <Route path="/blog-details-wish" exact component={BlogDetailsWish} /> 
-                    <Route path="/blog-details-bpw" exact component={BlogDetailsBPW} /> 
+                    <Route path="/blog-details-bpw" exact component={BlogDetailsBPW} />
+                    <Route path="/ecom-web" exact component={Ecom} />
+                    <Route path="/liz-web" exact component={Liz} />  
                 </React.Fragment>
             </Router>
         );

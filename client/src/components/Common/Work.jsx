@@ -10,7 +10,8 @@ const images = [
     require("../../assets/images/ecom-mockup.png"),
     require("../../assets/images/mockup-lizzy.png"),
     require("../../assets/images/wish-mockup.png"),
-    require("../../assets/images/bpw-mockup.png")
+    require("../../assets/images/bpw-mockup.png"),
+    require("../../assets/images/zen.png")
 ];
  
 class Work extends React.Component {
@@ -135,11 +136,11 @@ class Work extends React.Component {
                         
                         <div className="col-lg-4 col-md-6 mix website app seo p-0 mix-target">
                             <div className="single-work">
-                                <img src={images[2]} alt="work-img" />
+                                <img src={images[6]} alt="work-img" />
                                 
                                 <div className="work-content">
                                     <h4>E-Commerce Application</h4>
-                                    <Link to="/blog-details-pd">Find Out More</Link>
+                                    <Link to="/ecom-web">Find Out More</Link>
                                 </div>
                                 
                                 <Link 
@@ -158,7 +159,7 @@ class Work extends React.Component {
                                 
                                 <div className="work-content">
                                     <h4>Lizzy's Car Wash</h4>
-                                    <Link to="/blog-details-pd">Find Out More</Link>
+                                    <Link to="/liz-web">Find Out More</Link>
                                 </div>
                                 
                                 <Link 
