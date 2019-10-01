@@ -55,12 +55,7 @@ class BlogDetailsPd extends React.Component {
                                         
                                         <p>Petrichor Designs Ltd. also known as 'Pd.' is a construction and interior design company based in Central London and Surrey, where they have been working many years in the industry using classic methods of time keeping and project managment. However, Pd approached Solis Creative, to develop a faster, more effcient software and eco-system through the day-to-day process. Below we will shed light on how we at Solis, created an Application, In-house Software and Website to benefit in all areas of the work.</p>
                                         
-                                        <h5>Website</h5>
-                                        <h6>Colour Scheme</h6>
-                                        <div className="colour-wheel-pd"></div>
-                                        <p className="mb-0">Petrichor Designs had the goal of showcasing their work they have worked on but also keeping the contact with clients. The client describes their industry field with human contact and not working on the website or over the phone, so they wanted to avoid bookings and consultation online; as they can sell their product and services in person much better. So, keeping that in mind the website was designed is a simple 3 page website that always directs the user to the end goal of contacting Pd, not leaving the site. </p>
                                         
-                                        <p> This database hold the information to allow the device to detect the voltage output and input, therefore increading the life span of the product it self and the device it is charging, as no over or under charging will happen.</p>
 
                                         {/* <blockquote className="blockquote">
                                             <p className="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, iste? Aut ipsam consequuntur non rem tenetur dolore consequatur ducimus Link labore excepturi quae nisi, quisquam, maxime voluptates magnam aliquid. Cupiditate.</p>
